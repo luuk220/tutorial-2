@@ -1,0 +1,27 @@
+---
+title:  "Quarto tutorial 2"
+author: "Luuk Verheij"
+format: html
+---
+
+# Meet `Quarto`
+
+`Quarto` enables you to weave together content and executable code into a finished document. 
+To learn more about Quarto see [https://quarto.org](https://quarto.org).
+
+# Meet the `boys` data 
+The `boys` data from the [`mice`](https://github.com/amices/mice){.pkg} package in [`R`]{.proglang} is a random sample of 10% from the cross-sectional data used to construct the Dutch growth references 1997. Variables `gen` and `phb` are ordered factors. `reg` is a factor.
+
+The following table shows the first 6 rows of the `boys` data.
+
+:::: {.columns}
+::: {.column width="60%"}
+```{r}
+head(mice::boys)
+```
+:::
+
+::: {.column width="40%"}
+![](https://amices.org/mice/logo.png){fig-align="right" width=60%}
+:::
+::::
